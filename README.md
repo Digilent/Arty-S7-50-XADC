@@ -3,7 +3,7 @@ Arty S7-50 XADC Demo
   
 Description
 --------------
-This project is a Vivado demo using the Arty S7-50 analog-to-digital converter ciruitry,switches and LEDs, written in Verilog. When programmed onto the board, voltage levels between 0 and 1 Volt are read off of the JXADC header. The 6 User LEDs increment from top right to left then bottom right to left as the voltage difference on the selected XADC pins gets larger. Each XADC channel can be selected dependingon the switches position as shown in the following table. See the Arty S7-50's [Reference Manual](https://reference.digilentinc.com/reference/programmable-logic/arty-s7/reference-manual) for more information about how the Spartan 7 FPGA's XADC is connected to header JXADC.
+This project is a Vivado demo using the Arty S7-50 analog-to-digital converter ciruitry,switches and LEDs, written in Verilog. When programmed onto the board, voltage levels between 0 and 1 Volt are read off of the JXADC header. The 6 User LEDs increment from top right to left then bottom right to left as the voltage difference on the selected XADC pins gets larger. Each XADC channel can be selected depending on the switches position as shown in the following table. See the Arty S7-50's [Reference Manual](https://reference.digilentinc.com/reference/programmable-logic/arty-s7/reference-manual) for more information about how the Spartan 7 FPGA's XADC is connected to header JXADC.
 
 | Channel Pin/s  | SW3    | SW2   | SW1   | SW0   |
 | -------------- | -------| ------| ------| ------| 
