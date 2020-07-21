@@ -28,7 +28,7 @@ Requirements
 Demo Setup
 --------------
 1. Download and extract the most recent release ZIP archive from this repository's [Releases Page](https://github.com/Digilent/Arty-S7-50-XADC/releases).
-2. Open the project in Vivado 2018.2 by double clicking on the included XPR file found at "\<archive extracted location\>/vivado_proj/Arty-S7-50-XADC.xpr".
+2. Open the project in Vivado 2020.1 by double clicking on the included XPR file found at "\<archive extracted location\>/vivado_proj/Arty-S7-50-XADC.xpr".
 3. In the Flow Navigator panel on the left side of the Vivado window, click **Open Hardware Manager**.
 4. Plug the Arty S7-50 into the computer using a MicroUSB cable.
 5. In the green bar at the top of the window, click **Open target**. Select "Auto connect" from the drop down menu.
